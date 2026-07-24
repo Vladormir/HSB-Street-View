@@ -1,4 +1,3 @@
-[2026-07-17 19:43:06][INFO] Starting webserver ...
-[2026-07-17 19:43:06][INFO] Initializing Storage: 'file' (Type: 'bluemap:file')
-[2026-07-17 19:43:07][INFO] WebServer bound to all network interfaces on port 8100
-[2026-07-17 19:43:07][INFO] WebServer started.
+[2026-07-24 14:22:37][INFO] Initializing Storage: 'file' (Type: 'bluemap:file')
+[2026-07-24 14:22:37][INFO] Updated markers for map 'Room_World'
+[2026-07-24 14:22:37][INFO] Updated markers for map 'Dungeon_Hub'
