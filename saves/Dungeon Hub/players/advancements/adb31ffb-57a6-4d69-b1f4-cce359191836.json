@@ -5,17 +5,24 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2026-07-24 15:20:50 +0200",
+      "minecraft:plains": "2026-06-18 19:44:38 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
       "has_stone_slab": "2026-06-18 19:45:27 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
     "criteria": {
-      "minecraft:plains": "2026-06-18 19:44:38 +0200"
+      "has_cyan_terracotta": "2026-07-24 15:21:44 +0200"
     },
-    "done": false
+    "done": true
   },
-  "DataVersion": 4790
+  "DataVersion": 4903
 }

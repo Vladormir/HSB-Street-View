@@ -1,5 +1,5 @@
 {
-    "version": "5.22",
+    "version": "5.22-13",
     "useCookies": true,
     "defaultToFlatView": false,
     "clientDecompression": true,
@@ -19,5 +19,7 @@
         "Dungeon_Hub"
     ],
     "scripts": [],
-    "styles": []
+    "styles": [
+        "my-custom-styles.css"
+    ]
 }
