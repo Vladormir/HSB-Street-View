@@ -272,3 +272,5 @@
 [2026-07-24 21:54:21][INFO] 127.0.0.1 "GET /maps/Room_World/live/markers.json? HTTP/1.1" 200 OK
 [2026-07-24 21:54:22][INFO] 127.0.0.1 "GET /maps/Room_World/live/players.json? HTTP/1.1" 200 OK
 [2026-07-24 21:54:31][INFO] 127.0.0.1 "GET /maps/Room_World/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-24 21:54:37][INFO] 127.0.0.1 "GET /maps/Room_World/live/players.json? HTTP/1.1" 200 OK
+[2026-07-24 21:54:41][INFO] 127.0.0.1 "GET /maps/Room_World/live/markers.json? HTTP/1.1" 200 OK
