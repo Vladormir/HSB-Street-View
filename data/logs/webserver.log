@@ -303,3 +303,12 @@
 [2026-07-25 10:16:09][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/players.json? HTTP/1.1" 200 OK
 [2026-07-25 10:16:18][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/markers.json? HTTP/1.1" 200 OK
 [2026-07-25 10:16:24][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/players.json? HTTP/1.1" 200 OK
+[2026-07-25 10:16:28][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-25 10:16:38][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-25 10:16:39][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/players.json? HTTP/1.1" 200 OK
+[2026-07-25 10:16:48][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-25 10:16:54][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/players.json? HTTP/1.1" 200 OK
+[2026-07-25 10:16:58][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-25 10:17:08][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-25 10:17:09][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/players.json? HTTP/1.1" 200 OK
+[2026-07-25 10:17:18][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/live/markers.json? HTTP/1.1" 200 OK
