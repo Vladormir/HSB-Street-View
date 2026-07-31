@@ -4,5 +4,4 @@
 !.dev.vars.example
 .env*
 !.env.example
-wrangler.jsonc
 .DS_Store
