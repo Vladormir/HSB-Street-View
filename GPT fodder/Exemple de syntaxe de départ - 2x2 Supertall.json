@@ -1,0 +1,62 @@
+    {
+        "name": "Supertall",
+        "type": "miniboss",
+        "shape": "2x2",
+        "secrets": 6,
+        "crypts": 6,
+        "revive_stones": 2,
+        "journals": 0,
+        "spiders": false,
+        "wither": 0,
+        "redstone_key": 0,
+        "bat": 2,
+        "item": 1,
+        "chest": 3,
+        "soul": true,
+        "id": ["642,-592"
+        ],
+        "secret_coords": {
+            "bat": [
+                [
+                    2,
+                    72,
+                    2
+                ],
+                [
+                    53,
+                    112,
+                    8
+                ]
+            ],
+            "chest": [
+                [
+                    36,
+                    142,
+                    51
+                ],
+                [
+                    31,
+                    142,
+                    56
+                ],
+                [
+                    26,
+                    142,
+                    51
+                ]
+            ],
+            "item": [
+                [
+                    31,
+                    102,
+                    53
+                ]
+            ]
+        },
+        "cores": [
+            -46683467,
+            291711773,
+            1522346451,
+            -1376632689
+        ]
+    },

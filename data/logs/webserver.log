@@ -1,819 +1,457 @@
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /settings.json? HTTP/1.1" 200 OK
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /settings.json? HTTP/1.1" 304 Not Modified
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:17:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:02][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:08][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /settings.json? HTTP/1.1" 304 Not Modified
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/Room_World/settings.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/settings.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/settings.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/settings.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/textures.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z-1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z-1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z0.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z0.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z0.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:11][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z-1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z-2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z-2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z-2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z-2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z-1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z0.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z0.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z-1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z-2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z-3.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z-2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z-3.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z-3.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z-2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z-3.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z-2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z-3.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z-2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z-3.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z-2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z-2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z-1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z0.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z0.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z-1.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z0.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z-1.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z-2.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z-3.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z-3.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z-2.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z-3.prbm? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z-3.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z-3.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z-3.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z-3.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:12][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /settings.json? HTTP/1.1" 304 Not Modified
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z4.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z0.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-1.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-2.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-3.png? HTTP/1.1" 204 No Content
-[2026-07-31 14:18:15][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:19][INFO] 127.0.0.1 "GET /apple-touch-icon-precomposed.png? HTTP/1.1" 404 Not Found
-[2026-07-31 14:18:19][INFO] 127.0.0.1 "GET /apple-touch-icon.png? HTTP/1.1" 404 Not Found
-[2026-07-31 14:18:19][INFO] 127.0.0.1 "GET /favicon.ico? HTTP/1.1" 404 Not Found
-[2026-07-31 14:18:19][INFO] 127.0.0.1 "GET /assets/Skyblock/Mort_Skull.png? HTTP/1.1" 200 OK
-[2026-07-31 14:18:24][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:30][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:34][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:44][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:45][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:18:54][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:00][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:04][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:14][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:15][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:24][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:30][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:34][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:45][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:45][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:19:55][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
-[2026-07-31 14:20:00][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
-[2026-07-31 14:20:05][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /settings.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/settings.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/Room_World/settings.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/Dungeon_Hub/settings.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/settings.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/textures.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z-2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z-2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z-2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z-2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z-2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x3/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x3/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x3/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x3/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x3/z3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x3/z4.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z4.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z4.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z4.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z4.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z4.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z4.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z-1.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z0.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z-2.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z-3.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z-3.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z-3.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z-3.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z-3.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z-3.png? HTTP/1.1" 200 OK
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:48][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:49][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /settings.json? HTTP/1.1" 304 Not Modified
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x0/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/1/x-4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x0/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x0/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-1/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-2/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-3/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z4.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z0.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-1.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-2.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/2/x-4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:51][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/3/x-4/z-3.png? HTTP/1.1" 204 No Content
+[2026-07-31 16:11:52][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/players.json? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-3/z-3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-2/z-3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-1/z-3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x0/z-3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x1/z-3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x2/z-3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z0.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z-1.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z-2.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:11:53][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/tiles/0/x-4/z-3.prbm? HTTP/1.1" 200 OK
+[2026-07-31 16:12:01][INFO] 127.0.0.1 "GET /maps/2x2_Supertall/live/markers.json? HTTP/1.1" 200 OK
