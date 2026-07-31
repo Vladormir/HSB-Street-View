@@ -5,3 +5,4 @@
 .env*
 !.env.example
 wrangler.jsonc
+dungeons skeletons and secrets/

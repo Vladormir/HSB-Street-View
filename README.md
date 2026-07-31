@@ -10,4 +10,4 @@ Built using :
 * Hypixel SkyBlock textures
 
 Not built using :
-* AI
+* ~~AI~~ nvm used GPT to convert 117 kB worth of waypoints into BlueMap syntax
