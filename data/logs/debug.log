@@ -1,5 +1,4 @@
-[2026-07-31 20:52:28][INFO] Starting webserver ...
-[2026-07-31 20:52:28][INFO] Initializing Storage: 'file' (Type: 'bluemap:file')
-[2026-07-31 20:52:28][INFO] WebServer bound to all network interfaces on port 8100
-[2026-07-31 20:52:28][INFO] WebServer started.
-[2026-07-31 20:54:01][FINE] Exception in HttpConnection: java.net.SocketException: Connection reset
+[2026-07-31 21:49:33][INFO] Starting webserver ...
+[2026-07-31 21:49:33][INFO] Initializing Storage: 'file' (Type: 'bluemap:file')
+[2026-07-31 21:49:33][INFO] WebServer bound to all network interfaces on port 8100
+[2026-07-31 21:49:33][INFO] WebServer started.
