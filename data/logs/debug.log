@@ -1,4 +1,4 @@
-[2026-07-31 22:48:35][INFO] Starting webserver ...
-[2026-07-31 22:48:35][INFO] Initializing Storage: 'file' (Type: 'bluemap:file')
-[2026-07-31 22:48:35][INFO] WebServer bound to all network interfaces on port 8100
-[2026-07-31 22:48:35][INFO] WebServer started.
+[2026-08-01 13:02:02][INFO] Starting webserver ...
+[2026-08-01 13:02:02][INFO] Initializing Storage: 'file' (Type: 'bluemap:file')
+[2026-08-01 13:02:02][INFO] WebServer bound to all network interfaces on port 8100
+[2026-08-01 13:02:02][INFO] WebServer started.
